@@ -101,6 +101,11 @@ body {
       width: 50%;
       margin-top: 70px;
   }
+
+  .title-name {
+      padding-right: 40px;
+  }
+
   .title-name, h1{
     font-size:64px;
     color:#fff;
@@ -144,4 +149,12 @@ body {
     padding-bottom: 10px;
    }
 
+   .single-player {
+       margin-right: 40px;
+}
+
+
+.single-player p {
+    color: #6C6C6C;
+}
  
