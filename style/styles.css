@@ -158,3 +158,84 @@ body {
     color: #6C6C6C;
 }
  
+/* Footer */
+.footer {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px
+}
+.footer-logo{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer-logo img{
+    max-width: 400px;
+    margin: 0 auto
+}
+
+.social{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.social li{
+    display: inline-block; 
+}
+.social li a{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #E7E7E8;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: .3s;
+    margin-bottom: 10px;
+    color:#969BAB;
+}
+.social li a:hover{
+    background: #000;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+        .nav-section{
+            display: none;
+    }
+    .main-container{
+        display:block;
+        
+    }
+    .half-width{
+        margin-top: 0;
+    }
+    .top-banner {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .title-name, h1{
+        font-size: 28px;
+    }
+    .titel-name{
+        margin-bottom: 30px;
+    }
+    .half-width{
+        width:100%
+    }
+    .half-width img{
+
+        width: 100%;
+        height: auto;
+    }
+    .main-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .players{
+        display:block;
+    }
+}
